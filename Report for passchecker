@@ -1,0 +1,74 @@
+Password Strength Report
+This report analyzes password strength based on the provided "Password Meter" application, following the guidelines you've set out.
+
+Step 1: Understanding Password Strength
+A strong password is characterized by:
+
+Length: Longer passwords are inherently more secure.
+
+Complexity: A diverse mix of uppercase letters, lowercase letters, numbers, and symbols significantly increases strength.
+
+Unpredictability: Avoiding easily guessable elements like dictionary words, common patterns (e.g., "123456", "qwerty"), or personal information is crucial.
+
+No Reuse: Using unique passwords for each account prevents widespread compromise if one account is breached.
+
+Step 2: Example Passwords and Their Characteristics
+Here are the example passwords with their complexity levels and descriptions:
+Password
+
+| **Password**        | **Strength** | **Description**                                       |
+| ------------------- | ------------ | ----------------------------------------------------- |
+| `erick12345`        | Good         | Mix of lowercase and numbers, 10 characters           |
+| `erickkill`         | Very Weak    | Letters only, 9 characters                            |
+| `erick@90934`       | Very Strong  | Mix of lowercase, numbers, and symbols, 11 characters |
+| `erick123`          | Weak         | Mix of lowercase and numbers, 8 characters            |
+| `erick@kill2367@23` | Very Strong  | Mix of lowercase, numbers, and symbols, 17 characters |
+
+Step 3 & 4: Testing Passwords with the Password Meter and Recording Results
+The provided PDF documents from the "Password Meter" application were used to assess the strength of various passwords. The application calculates a score based on additions (like number of characters, uppercase letters, numbers, symbols, middle numbers/symbols, and requirements met) and deductions (like letters only, numbers only, repeat characters, consecutive characters, and sequential characters). The application does not use a "days-to-crack" approach.
+
+Here's a table summarizing the results:
+
+| Password          | Score (%) | Complexity   | Tool Feedback (Based on Deductions/Bonuses)
+
+TheThe password meter application is designed to assess the strength of password strings. The instantaneous visual feedback provides the user a means to improve the strength of their passwords, with a hard focus on breaking the typical bad habits of faulty password formulation. Since no official weighting system exists, we created our own formulas to assess the overall strength of a given password. This application does not utilize the typical "days-to-crack" approach for strength determination. This application is neither perfect nor foolproof, and should only be utilized as a loose guide in determining methods for improving the password creation process.
+
+Step 5: Analysis and Best Practices for Strong Passwords
+Based on the results from the Password Meter, here are the key best practices for creating strong passwords:
+
+Length is paramount: Passwords with more characters consistently score higher. The "erick@kill2367@23" password, at 17 characters, achieved a 100% score, demonstrating the significant impact of length.
+
+Embrace complexity: A mix of character types (uppercase, lowercase, numbers, and symbols) is crucial. Passwords like "erick@90934" and "erick@kill2367@23" that included symbols in addition to letters and numbers achieved "Very Strong" complexity.
+
+Avoid predictable patterns and personal information: Passwords like "erickkill" and "erick123" that rely on common words or simple number sequences are easily deductible and result in "Very Weak" or "Weak" complexity. Even "erick12345" which is longer, was only "Good" due to sequential numbers.
+
+Minimize repetitions and consecutive characters: The deductions for "Repeat Characters (Case Insensitive)", "Consecutive Lowercase Letters", and "Consecutive Numbers" highlight the importance of varying character types and avoiding sequences. For example, "erickkill" had significant deductions for consecutive lowercase letters.
+
+Utilize middle numbers or symbols: The "Middle Numbers or Symbols" bonus indicates that placing these characters within the password, rather than just at the beginning or end, contributes to strength.
+
+In summary:
+✅ Use 12+ characters
+✅ Mix uppercase, lowercase, numbers, and symbols
+✅ Avoid dictionary words or common substitutions (like "0" for "o")
+✅ Avoid personal info or keyboard patterns
+✅ Use random strings or a password manager
+
+Step 6: Common Password Attacks
+Here's a brief explanation of common password attacks:
+
+Brute Force Attack: This method involves systematically trying every possible combination of characters until the correct password is found. Longer and more complex passwords significantly increase the time and computational resources required for a successful brute force attack, making them more resistant.
+
+Dictionary Attack: Attackers use a list of common words, phrases, and previously leaked passwords (a "dictionary") to try and guess the password. Avoiding dictionary words and common substitutions (like "P@ssw0rd!" where "a" is replaced by "@" and "o" by "0") drastically reduces the risk of falling victim to this attack.
+
+Credential Stuffing: This attack leverages lists of usernames and passwords obtained from data breaches on other websites. Attackers try these compromised credentials on different websites, hoping users have reused their passwords. The best defense against credential stuffing is to use unique, strong passwords for every online account.
+
+Phishing: While not directly related to password strength, phishing is a social engineering technique where attackers trick individuals into revealing their login credentials or other sensitive information. This often involves deceptive emails, messages, or fake websites that mimic legitimate entities.
+
+Step 7: How Complexity Affects Security
+The complexity of a password has an exponential impact on its security, primarily by increasing the time and resources required for an attacker to crack it.
+
+Short, simple passwords: A password like "123456" (6 characters, very weak) can be cracked almost instantly. Even "erick123" (8 characters, weak) is relatively easy to compromise due to its simplicity and sequential numbers.
+
+Longer, complex passwords: As demonstrated by "erick@kill2367@23" (17 characters, very strong, 100% score), a combination of significant length and a diverse character set makes a password incredibly difficult to crack. While the "Password Meter" doesn't provide "crack time," the principles of cryptography confirm that such passwords would take an astronomically long time (millions of years or more) for even the most powerful computers to guess through brute force.
+
+Substitutions are not enough: Simple substitutions, such as replacing "o" with "0" or "a" with "@" (e.g., "P@ssw0rd!"), are often predictable and do not significantly enhance security against sophisticated attacks. Attackers' tools are designed to account for these common variations.
